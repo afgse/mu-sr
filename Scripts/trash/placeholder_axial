@@ -1,0 +1,15 @@
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+
+
+y1 = np.zeros(step)
+y2 = np.zeros(step)
+
+### function points (z)
+zmin=minim
+zmax=maxim
+npoints=step
+
+z=np.linspace(zmin,zmax,npoints)   # Array of z values

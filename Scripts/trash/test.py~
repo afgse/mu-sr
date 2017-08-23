@@ -1,0 +1,39 @@
+# Generate a set of random numbers.
+# Index these random numbers into your y array.
+# Plot the histogram of this.
+# See how they differ for each random (running the script each time.)
+
+import numpy as np
+import matplotlib.pyplot as plt
+import axial_distribution as zd
+import radial_distribution as rd
+
+# Constants
+
+amount = 100
+
+# Domain
+
+xmin, xmax = -2,2
+rmin, rmax = 5,5
+
+# Random number generator
+ran_x = (xmax-xmin)*np.random_sample()+xmin
+ran_r = (rmax-rmin)*np.random_sample()+rmin
+
+# Array
+r = np.zeros(amount)
+
+# Coils
+def ran_a(a,z):
+           params = (z,R,epsilon*met)
+            += biot(*params,-tau*met,axisOffset) - biotSecond(*params,-tau*met,axisOffset) * r**2
+
+def ran_b(a):
+    for epsilon in np.arange(vert):
+       for tau in np.arange(horiz):
+           params = (zChoice,R,epsilon*met)
+           a += biot(*params,tau*met,-axisOffset) - biotSecond(*params,tau*met,-axisOffset) * r**2
+
+# Function
+def fn(x,r):
